@@ -81,6 +81,8 @@ form {
 }
 
 .social-btn .fa {
+  width: 18px;
+  height: 18px;
   color: white;
 }
 
