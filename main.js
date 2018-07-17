@@ -1,16 +1,5 @@
 $(document).ready(function() {
   $("#profile").slideDown(800);
-
-  $("#hide").click(function(){
-    $("#profile").css({'visibility':'hidden','opacity':'0','transition':'opacity 0.2s ease-in-out'});
-    $("#exp-box").css({'visibility':'visible','opacity':'1','transition':'opacity 0.75s ease-in-out'});
-  });
-
-  $("#show").click(function(){
-    $("#profile").css({'visibility':'visible','opacity':'1','transition':'opacity 0.75s ease-in-out'});
-    $("#exp-box").css({'visibility':'hidden','opacity':'0','transition':'opacity 0.2s ease-in-out'});
-  });
-
   /* Main Interface */
   let current_box;
   $("#about").click(function(){
@@ -218,11 +207,6 @@ $(document).ready(function() {
           $("#exp-1").fadeIn(800);
         });
         break;
-
     }
-  });
-
-  $("#animate").click(function(){
-    $("#c-1").slideDown(800);
   });
 });
