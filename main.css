@@ -97,7 +97,7 @@ form {
 .info-btn-wrapper {
   width: 60%;
   display: block;
-  margin: 40px auto;
+  margin: 15px auto;
   text-align: center;
 }
 
@@ -316,10 +316,14 @@ form {
     height: 450px;
     margin: 0 auto;
   }
+  .info-btn-wrapper {
+    width: 360px;
+  }
   .info-btn {
-    width: 40%;
+    width: 120px;
     min-width: 80px;
     height: 40px;
+    margin: 10px;
   }
   /* Profile Side */
   .profile-side {
@@ -343,7 +347,7 @@ form {
   .info-btn-side {
     display: block;
     margin: 40px auto;
-    height: 60px;
+    height: 62px;
     background: transparent;
     border-radius: 50%;
     border: 3px solid white;
