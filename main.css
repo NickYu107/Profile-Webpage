@@ -7,10 +7,141 @@ body {
 }
 
 form {
-  all: initial;
-  * {
-    all: unset;
-  }
+  backface-visibility: visible;
+  background: 0;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: transparent;
+  background-image: none;
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-position-x: 0;
+  background-position-y: 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+  border: 0;
+  border-style: none;
+  border-width: medium;
+  border-color: inherit;
+  border-bottom: 0;
+  border-bottom-color: inherit;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  border-collapse: separate;
+  border-image: none;
+  border-left: 0;
+  border-left-color: inherit;
+  border-left-style: none;
+  border-left-width: medium;
+  border-radius: 0;
+  border-right: 0;
+  border-right-color: inherit;
+  border-right-style: none;
+  border-right-width: medium;
+  border-spacing: 0;
+  border-top: 0;
+  border-top-color: inherit;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top-style: none;
+  border-top-width: medium;
+  bottom: auto;
+  box-shadow: none;
+  box-sizing: content-box;
+  caption-side: top;
+  clear: none;
+  clip: auto;
+  color: inherit;
+  columns: auto;
+  column-count: auto;
+  column-fill: balance;
+  column-gap: normal;
+  column-rule: medium none currentColor;
+  column-rule-color: currentColor;
+  column-rule-style: none;
+  column-width: auto;
+  content: normal;
+  counter-increment: none;
+  counter-reset: none;
+  cursor: auto;
+  direction: ltr;
+  display: inline;
+  empty-cells: show;
+  float: none;
+  font: normal;
+  font-family: inherit;
+  font-size: medium;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  height: auto;
+  hyphens: none;
+  left: auto;
+  letter-spacing: normal;
+  line-height: normal;
+  list-style: none;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: disc;
+  margin: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  max-height: none;
+  max-width: none;
+  min-height: 0;
+  min-width: 0;
+  opacity: 1;
+  outline: 0;
+  outline-color: invert;
+  outline-style: none;
+  outline-width: medium;
+  overflow: visible;
+  overflow-x: visible;
+  overflow-y: visible;
+  padding: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  page-break-after: auto;
+  page-break-before: auto;
+  page-break-inside: auto;
+  perspective: none;
+  perspective-origin: 50% 50%;
+  position: static;
+  /* May need to alter quotes for different locales (e.g fr) */
+  quotes: '\201C' '\201D' '\2018' '\2019';
+  right: auto;
+  tab-size: 8;
+  table-layout: auto;
+  text-align: inherit;
+  text-align-last: auto;
+  text-decoration: none;
+  text-decoration-color: inherit;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: none;
+  top: auto;
+  transform: none;
+  transform-style: flat;
+  transition: none;
+  transition-delay: 0s;
+  transition-duration: 0s;
+  transition-property: none;
+  transition-timing-function: ease;
+  unicode-bidi: normal;
+  vertical-align: baseline;
+  visibility: visible;
+  #fff-space: normal;
+  width: auto;
+  word-spacing: normal;
+  z-index: auto;
 }
 
 /* ---- particles.js container ---- */
@@ -35,7 +166,7 @@ form {
   bottom: 25%;
   border: solid;
   border-width: 3px;
-  border-color: white;
+  border-color: #fff;
   width: 50%;
   height: 450px;
   border-radius: 20px;
@@ -65,8 +196,8 @@ form {
 }
 
 .social-btn {
-  background-color: black;
-  color: white;
+  background-color: #0B0C10;
+  color: #fff;
   padding: 5px;
   border-radius: 5px;
   text-align: center;
@@ -83,7 +214,7 @@ form {
 .social-btn .fa {
   width: 18px;
   height: 18px;
-  color: white;
+  color: #fff;
 }
 
 .social-btn:hover {
@@ -106,10 +237,10 @@ form {
   font-family: 'Cabin', sans-serif;
   text-transform: uppercase;
   background-color: transparent;
-  color: white;
+  color: #fff;
   border: solid;
   border-width: 3px;
-  border-color: white;
+  border-color: #fff;
   width: 120px;
   height: 30px;
   border-radius: 10px;
@@ -120,8 +251,8 @@ form {
 }
 
 .info-btn:hover {
-  border-color: grey;
-  color: grey;
+  border-color: #696969;
+  color: #696969;
 }
 
 .info-btn:active {
@@ -154,7 +285,7 @@ form {
   bottom: 25%;
   border: solid;
   border-width: 3px;
-  border-color: white;
+  border-color: #fff;
   width: 50%;
   height: 450px;
   border-radius: 20px;
@@ -171,7 +302,7 @@ form {
 .about-box .about-txt-d {
   display: block;
   text-align: center;
-  color: white;
+  color: #fff;
   width: 100%;
   height: calc(100% - 140px);
   font-size: 12px;
@@ -189,7 +320,7 @@ form {
 
 .back {
   position: absolute;
-  border: solid white;
+  border: solid #fff;
   background-color: inherit;
   border-width: 0 3px 3px 0;
   margin: -15px;
@@ -198,7 +329,7 @@ form {
 }
 
 .back:hover {
-  border-color: grey;
+  border-color: #696969;
 }
 
 .back:active {
@@ -216,7 +347,7 @@ form {
   bottom: 25%;
   border: solid;
   border-width: 3px;
-  border-color: white;
+  border-color: #fff;
   width: 50%;
   height: 450px;
   border-radius: 20px;
@@ -227,7 +358,7 @@ form {
   display: none;
   position: absolute;
   left: 57%;
-  border: solid white;
+  border: solid #fff;
   background-color: inherit;
   border-width: 0 3px 3px 0;
   margin: -25px;
@@ -236,7 +367,7 @@ form {
 }
 
 .exp-back:hover {
-  border-color: grey;
+  border-color: #696969;
 }
 
 .exp-back:active {
@@ -270,7 +401,7 @@ form {
 
 .exp-txt-p {
   margin: 20px;
-  color: white;
+  color: #fff;
 }
 
 /* involvement Box */
@@ -284,7 +415,7 @@ form {
   bottom: 25%;
   border: solid;
   border-width: 3px;
-  border-color: white;
+  border-color: #fff;
   width: 50%;
   height: 450px;
   border-radius: 20px;
@@ -333,7 +464,7 @@ form {
     right: 5%;
     border: solid;
     border-width: 3px;
-    border-color: white;
+    border-color: #fff;
     width: 100px;
     height: 450px;
     border-radius: 20px;
@@ -350,18 +481,18 @@ form {
     height: 62px;
     background: transparent;
     border-radius: 50%;
-    border: 3px solid white;
+    border: 3px solid #fff;
     position: relative;
     transition: transform .8s ease-in-out;
   }
   .info-btn-side .fa {
     width: 40px;
     font-size: 30px;
-    color: white;
+    color: #fff;
   }
   .info-btn-side:hover {
-    border-color: grey;
-    color: grey;
+    border-color: #696969;
+    color: #696969;
     transform: rotate(360deg);
   }
   .info-btn-side:active {
@@ -371,7 +502,7 @@ form {
     display: none;
     position: absolute;
     top: 60px;
-    border: solid white;
+    border: solid #fff;
     background-color: inherit;
     border-width: 0 3px 3px 0;
     margin: 5px;
@@ -397,13 +528,13 @@ form {
   }
   .about-box .about-txt-d {
     display: inline-block;
-    color: white;
+    color: #fff;
     width: calc(100% - 150px);
     font-size: 1vw;
   }
   .about-box .about-txt-e {
     display: inline-block;
-    color: white;
+    color: #fff;
     width: calc(100% - 250px);
     font-size: 1vw;
     margin: 20px;
@@ -443,12 +574,12 @@ form {
   }
   .exp-txt-h {
     display: inline;
-    color: white;
+    color: #fff;
     font-size: 1.4vw;
   }
   .exp-txt-d {
     display: inline;
-    color: white;
+    color: #fff;
     font-size: 0.7vw;
   }
   /* involvement Box */
@@ -467,7 +598,7 @@ form {
   .img-txt-container {
     position: relative;
     text-align: center;
-    color: white;
+    color: #fff;
   }
   .involvement-img {
     margin: 20px;
@@ -480,17 +611,17 @@ form {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  .img-txt-container:hover .involvement-img{
+  .img-txt-container:hover .involvement-img {
     opacity: 0.6;
   }
-  .img-txt-container:hover .involvement-img-d{
+  .img-txt-container:hover .involvement-img-d {
     display: block;
   }
   /* Back Button */
   .back {
     align-self: baseline;
     position: absolute;
-    border: solid white;
+    border: solid #fff;
     background-color: inherit;
     border-width: 0 3px 3px 0;
     margin: -15px;
@@ -502,7 +633,7 @@ form {
     align-self: baseline;
     left: 55%;
     position: absolute;
-    border: solid white;
+    border: solid #fff;
     background-color: inherit;
     border-width: 0 3px 3px 0;
     margin: -25px;
